@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --accentblack: rgba(33, 30, 29, 1);
+  --accentdark-gray: rgba(98, 98, 98, 1);
+  --accentgray: rgba(212, 212, 212, 1);
+  --accentwhite: rgba(255, 255, 255, 1);
+  --primarypink: rgba(201, 66, 119, 1);
+  --secondaryorange: rgba(244, 116, 59, 1);
+  --secondaryyellow: rgba(255, 233, 0, 1);
+  --tertiarygreen: rgba(44, 110, 73, 1);
+  }
+.pink {
+  background-color: var(--primarypink);
+}
+.pinkcolor {
+  color: var(--primarypink);
+}
+body {
+  background-color: #f7fafc;
+  font-family: 'Atvik-Regular';
+}
+.hehe{
+  border-radius: calc(0.75rem - 3px);
+}
+a.active {
+  color: var(--primarypink);
+  border-bottom: 4px solid var(--primarypink);
+  padding-bottom: 2px;
+
+}
+
+
+@font-face {
+  font-family: 'Atvik-Regular';
+  src: url("Fonts/AktivGrotesk-Regular.otf");
+}

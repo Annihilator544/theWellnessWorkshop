@@ -2,7 +2,7 @@ function AboutUs2() {
   return (
     <div className=" grid grid-cols-[40%,60%] px-[70px] py-[80px] border-2 border-[#D4D4D4] text-[#211E1D] ">
         <div className="flex flex-col gap-6">
-            <p className=" text-base font-bold text-left mb-5">A B O U T  U S</p>
+            <pre className=" text-base font-bold text-left mb-5">A B O U T  U S</pre>
             <p className=" text-5xl font-medium text-left mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi.</p>
         </div>
         <div className="flex flex-col gap-5 ml-[72px]">

@@ -5,7 +5,7 @@ import scrolldown from "../assets/Scroll Down.svg"
 function HeroSection() {
     return (
         <div className="hero-section bg-gradient-to-r from-[#FFFFFF00] to-[#F5753B0D] flex flex-col">
-            <div id="Hero" className=" grid grid-cols-[53%,1fr] flex-1 relative">
+            <div id="Hero" className=" grid grid-cols-[70%,1fr] flex-1 relative">
             <div className="flex flex-col justify-center items-left px-[70px]">
                 <h1 className="text-7xl font-medium text-left text-[#000]">Start Training Today </h1>
                 <h1 className="text-7xl font-medium text-left text-[#000]"> with a <span className="pinkcolor">Lifestyle Change</span> </h1>  
@@ -16,7 +16,7 @@ function HeroSection() {
                 </div>
             </div>
             <div className="flex align-bottom justify-center relative">
-                <img className="absolute z-[-1] w-[603px] h-[607px] bottom-0 right-0" alt="Vector" src={vector} />
+                <img className="absolute z-[-1]  lg:h-[400px] md:h-[400px] 2xl:h-[607px] bottom-0 right-0" alt="Vector" src={vector} />
                 <img className="h-[70vh] ml-auto mt-auto" alt="dude" src={dude} />
             </div>
             <img className="absolute bottom-[32px] left-[70px]" alt="scrolldown" src={scrolldown} />

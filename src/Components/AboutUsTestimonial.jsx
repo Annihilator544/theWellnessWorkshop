@@ -1,7 +1,7 @@
 import star from '../assets/star-01.svg';
 import TestimonialImg from '../assets/testimonials.svg';
 import quotes from '../assets/Quotes.svg';
-import VideoImg from '../assets/Demo_video.svg';
+import VideoImg from '../assets/Demo_Video.svg';
 function AboutUsTestimonial(){
     return(
         <div>

@@ -15,7 +15,7 @@ function AboutUsTestimonial(){
                     <img className="w-[100%] h-[100%]" alt="testimonial" src={TestimonialImg} />
                 </div>
             </div>
-            <div className='flex align-top'>
+            <div className='flex align-top gap-2'>
                 <img className="w-[32px] align-top mb-auto" alt="quotes" src={quotes} />
                 <p className=' text-[28px] font-medium'>The comprehensive range of workout options caters to every fitness preference, from high-intensity training to yoga and strength conditioning. The cutting-edge equipment and impeccably clean facilities create an inviting environment that motivates and energises.</p>
             </div>

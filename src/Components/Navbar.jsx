@@ -1,7 +1,7 @@
 import logo from "../assets/Logo.svg";
 function Navbar() {
   return (
-    <div className="navbar sticky top-0 flex Atvik-Regular font-medium backdrop-blur-sm bg-slate-200 z-10  justify-between py-8 px-16 ">
+    <div className="navbar fixed w-full top-0 flex Atvik-Regular font-medium backdrop-blur-sm bg-slate-200 z-10  justify-between py-8 px-16 ">
       <div className="  ">
         <ul className="flex-row flex text-base p-4 gap-8">
           <li>

@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 import HeroSection from './Components/HeroSection';
 import AboutUsTestimonial from './Components/AboutUsTestimonial';
-import Course from './Components/Course';
 import Marquee from './Components/Marquee';
 import Navbar from './Components/Navbar';
 import AboutUs2 from './Components/AboutUs2';
+import BronzeCourse from './Components/BronzeCourse';
+import Gallery from './Components/Gallery';
+import WhyUs from './Components/WhyUs';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -17,7 +19,12 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <AboutUsTestimonial/>
   <Marquee/>
   
-  <Course/>
+  <BronzeCourse/>
   <AboutUs2/>
+  <WhyUs  />
+  <Marquee/>
+  <Gallery/>
+  
+  
   </React.StrictMode>,
 )
